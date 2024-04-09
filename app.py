@@ -13,8 +13,6 @@ from flask_bcrypt import Bcrypt
 from models import db, Outlet
 
 
-
-
 app = Flask(__name__)
 CORS(app, origins=["https://filesharing-mpqa9pzlc-exljnrs-projects.vercel.app"])
 
